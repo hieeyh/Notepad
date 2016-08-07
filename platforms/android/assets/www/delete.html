@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zn-ch">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<title>删除</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/delete.css">
+	<link rel="stylesheet" type="text/css" href="css/reuse.css">
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li id="allselect">全选</li>
+			<li class="btnquit"><a href="index.html">取消</a></li>
+		</ul>
+	</nav>
+	<div class="searchbar">
+		<input id="searchtext" type="text"/>
+		<img id="searchbutton" src="img/search.png" alt="搜索"/>
+	</div>
+</header>
+<div class="content">
+	<section id="allcontent"></section>
+</div>
+<div class="record">
+	<input id="deletebutton" class="deletedisable" type="button" name="delete" value="删除"/>
+</div>
+
+	<script type="text/javascript" src="js/delete.js"></script>
+	<script type="text/javascript" src="js/reuse.js"></script>
+</body>
+</html>

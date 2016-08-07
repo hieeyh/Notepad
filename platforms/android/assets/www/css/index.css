@@ -1,0 +1,37 @@
+/* 设置头部按钮浮动样式 */
+nav ul li.btnedit{
+	float: left;
+}
+
+nav ul li.btnnew{
+	float: right;
+}
+
+
+#allcontent ul li a {
+	display: block;
+	float: left;
+	width: 78%;
+	color: #353535;
+	font-size: 16px;
+	text-indent: 8px;
+	overflow: hidden;
+}
+
+#allcontent ul li span {
+	display: block;
+	float: right;
+	width: 22%;
+}
+
+.record{
+	position: fixed;
+	width: 100%;	
+	bottom: 18px;
+	text-align: center;
+}
+
+#recordicon{
+	width: 68px;
+	height: 68px;
+}

@@ -1,0 +1,44 @@
+/* 设置头部按钮浮动样式 */
+nav ul li.btncancel{
+	float:left;
+}
+
+nav ul li.btnfinish{
+	float:right;
+}
+
+/*录音按钮样式*/
+.record{
+	position: fixed;	
+	width: 100%;
+	bottom: 18px;
+	text-align: center;
+}
+
+#recordicon{
+	width: 68px;
+	height: 68px;
+}
+
+.newdelete{
+	position: fixed;
+	width: 100%;
+	bottom: 5px;
+	text-align: center;
+}
+
+#deleteicon{
+	display: block;
+	float:left;
+	width:25px;
+	height: 25px;
+	margin-left: 3px;
+}
+
+#newicon{
+	display: block;
+	float:right;
+	width: 25px;
+	height: 25px;
+	margin-right: 3px;
+}

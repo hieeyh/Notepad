@@ -1,0 +1,60 @@
+/* 设置头部按钮浮动样式 */
+nav ul li#allselect{
+	float: left;
+}
+
+nav ul li.btnquit{
+	float: right;
+}
+
+/* 设置内容列表样式 */
+#allcontent ul li.todelete {
+	height: 38px;
+	border: 1px solid #39AAD1;
+}
+
+#allcontent ul li span.the-title {
+	display: block;
+	float: left;
+	width: 78%;
+	color: #353535;
+	font-size: 16px;	
+	text-indent: 8px;
+	overflow: hidden;
+}
+
+#allcontent ul li span {
+	display: block;
+	float: right;
+	width: 22%;
+}
+
+.record{
+	position: fixed;
+	width: 100%;
+	bottom: 20px;
+	text-align: center;
+	vertical-align: center;
+}
+
+.record input.deletedisable{
+	width: 42%;
+	height: 26px;
+	color: rgba(145,62,20,0.7);
+	font-size: 14px;
+	background-color: rgba(226,200,158,0.6);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #C6BBA7;
+}
+
+.record input.deleteable{
+	width: 42%;
+	height: 26px;
+	color: #913E14;
+	font-size: 14px;
+	background-color: #E2C89E;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #C6BBA7;
+}

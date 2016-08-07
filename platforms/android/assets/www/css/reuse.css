@@ -1,0 +1,175 @@
+/* 设置整个页面背景 */
+body {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #F5F3E7;
+}
+
+/* 设置头部样式 */
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+
+nav{ 
+	height: 52px;
+	background: #E2C89E;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	box-shadow: 0px 2px 6px #C9B298;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+	vertical-align: center;
+	line-height: 52px;
+	font-size: 16px;
+	color: #913E14;
+}
+
+nav ul li a{
+	display: inline-block;
+	height: inherit;
+	line-height: inherit;
+	font-size: 16px;
+	color: #913E14;
+}
+
+nav ul li a:active{
+	display: inline-block;
+	height: inherit;
+	line-height: inherit;
+	font-size: 16px;
+	color: #C19479;
+}
+
+/* 设置搜索样式 */
+.searchbar{
+	width: 100%;
+	height:40px;
+	padding-top: 8px;
+	line-height: 40px;
+	/*border-bottom: 1px solid rgba(255, 255, 255, 0.6);*/
+	text-align: center;
+	background-color: #F5F3E7;
+}
+
+#searchtext{
+	width: 82%;
+	height: 28px;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 8px;
+}
+
+#searchbutton {	
+	width: 28px;
+	height: 28px;
+	margin-bottom: 5px;	
+	background: url(../img/search.png);
+	border: none;
+}
+
+/* 设置主题内容样式 */
+.content{
+	margin-top: 104px;
+}
+
+#allcontent ul li{
+	height: 40px;
+	width: 94%;
+	margin: 8px auto;
+	line-height: 40px;
+	color: #913E14;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 2px 1px 3px #C6BBA7;
+}
+
+/*显示时间样式*/
+section.showtime{
+	margin-top: 10px;
+	text-align: center;
+}
+
+time{
+	font-size: 12px;
+	color: #913E14;
+}
+
+/*每一个记事内容样式*/
+.container{
+	margin-top: 86px;
+}
+
+.notecontent{
+	text-align: center;
+}
+
+.notecontent input{
+	display: block;
+	width: 98%;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	font-size: 16px;
+	text-indent: 6px;
+	background-color: #F5F3E7; 
+	border:none;
+	border-bottom: 1px solid rgba(145, 62, 20, 0.6);
+}
+
+.notecontent textarea{
+	display:block;
+	width: 98%;
+	height: 400px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 20px;
+	text-indent: 6px;
+	background-color: #F5F3E7; 
+	border: none;
+	overflow: auto;
+	resize: none;
+
+}
+
+/*浏览器兼容样式设计*/
+:-moz-placeholder{
+	color: #913E14;
+	font-size: 14px;
+}
+
+::-moz-placeholder{
+	color: #913E14;
+	font-size: 14px;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{
+	color: #913E14;
+	font-size: 14px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+	color: #913E14;
+	font-size: 14px;
+}
+
+
+
+
+
+

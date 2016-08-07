@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<title>编辑</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/edit.css">
+	<link rel="stylesheet" type="text/css" href="css/reuse.css">
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li class="btncancel"><a href="index.html">取消</a></li>
+			<li class="btnfinish"><a id="myfinish" href="#">完成</a></li>
+		</ul>
+	</nav>
+	<section class="showtime">
+		<time id="time"></time>
+	</section>
+</header>
+<div class="container">
+	<section class="notecontent">
+		<input id="title" type="text" name="mytitle" placeholder="标题"/>
+		<textarea id="content" placeholder="请在此输入内容..."></textarea>
+	</section>
+</div>
+<div class="record">
+	<img id="recordicon" src="img/record.png" alt="录音"/>
+</div>
+<div class="newdelete">
+	<a id= "delete"><img id="deleteicon" src="img/delete.png" alt="删除"/></a>
+	<a href="new.html"><img id="newicon" src="img/new.png" alt="新建"/></a>
+</div>
+	<script type="text/javascript" src="js/edit.js"></script>
+	<script type="text/javascript" src="js/reuse.js"></script>
+</body>
+</html>

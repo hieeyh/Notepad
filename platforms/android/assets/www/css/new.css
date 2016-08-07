@@ -1,0 +1,21 @@
+/* 设置头部按钮浮动样式 */
+nav ul li.btnback{
+	float:left;
+}
+
+nav ul li.btnfinish{
+	float:right;
+}
+
+/*录音按钮样式*/
+.record{
+	position: fixed;
+	width: 100%;
+	bottom: 18px;
+	text-align: center;
+}
+
+#recordicon{
+	width: 68px;
+	height: 68px;
+}
