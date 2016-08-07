@@ -1,6 +1,5 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+# Voice Notepad Based on PhoneGap
 
-A PhoneGap Hello World template
 
 ## Usage
 
