@@ -1,4 +1,4 @@
-# Voice Notepad Based on PhoneGap
+# Notepad Based on PhoneGap
 
 
 ## Usage
