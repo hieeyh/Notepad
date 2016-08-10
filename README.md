@@ -4,6 +4,10 @@
 
 这是一个基于PhoneGap框架的记事本hybrid app，用html,css，javascript（和jquery）语言实现了记事本基本的功能。
 
+应用的初始界面如下：
+
+
+
 
 
 
