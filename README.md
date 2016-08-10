@@ -6,6 +6,7 @@
 
 应用的初始界面如下：
 
+![index](https://github.com/hieeyh/Notepad/blob/master/index.png)
 
 
 
